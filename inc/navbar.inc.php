@@ -1,6 +1,6 @@
 
 <?php
-
+//this is a comment
 $database = new PDO('mysql:host=localhost;dbname=someblog',"root","qwerty");
 $sql = "SELECT name FROM category";
 $stmt = $database->query($sql);
